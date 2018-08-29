@@ -32,18 +32,20 @@
     padding: auto;
     align-self: center;
     justify-self: center;
-    font-family: Questrial, Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Ubuntu', Questrial, Calibri, sans-serif;
     font-weight: bolder;
     font-size: 50px;
     color: white;
     transition: 0.5s;
     transition-timing-function: ease-in-out;
+    text-transform: uppercase;
+
 }
 
 #b1:hover {
     color: #121923;
-    font-size: 35px;
-    padding-top: 72.7px;
+    font-size: 60px;
+    padding-top: 30px;
 }
 
 /*  1 =     */
@@ -69,16 +71,18 @@
 }
 
 .nav {
-    transition: 0.3s;
-    
+    transition: 0.2s;
+
     transition-timing-function: ease-in-out;
     font-family: Questrial, Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     color: white;
     border: 1px white solid;
-    padding: 30px 30px 30px 30px;
+    padding: 40px 30px 30px 30px;
     border-radius: 2%;
-    font-size: 50px;
+    font-size: 40px;
+    position: relative;
+    bottom: 60px;
 
 }
 
@@ -89,14 +93,9 @@
 
 }
 
-@media screen and (min-width: 670px) {
-    .nav {
-      font-size: 40px;
-    }
-  }
   
   /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-  @media screen and (max-width: 750px) {
+  @media screen and (max-width: 800px) {
     .nav {
       font-size: 20px;
       padding: 45px 30px 30px 30px;
@@ -111,15 +110,29 @@
 }
 
 #indfoot {
-    position: absolute;
+    position: fixed;
     right: 0;
-    bottom: 0;
+    bottom: -10px;
     left: 0;
-    padding: 1rem;
+    padding: 0;
     text-align: center;
 }
 
+#codeca {
+    height: 16px;
+    width: 16px;
+    background-color: #322f30;
+    padding: 13px 13px 13px 13px;
+    position: relative;
+    top: 15px;
+}
 
+#codeca:hover {
+    background-color: #204056;
+    border-radius: 40%;
+    transition: 0.5s;
+    border-style: hidden;
+}
 
 
 /* SOCIAL MEDIA */
@@ -154,7 +167,8 @@ h6 {
 }
 ._14 {
     font-size: 1.2em;
-    font-family: Questrial, Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Ubuntu', Questrial, Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
 }
 ul {
     padding:0;
@@ -169,7 +183,7 @@ ul {
     color: #fff;
 }
 ul.social-icons {
-    margin-top: 10px;
+    margin-top: 0px;
 }
 .social-icons li {
     vertical-align: top;
@@ -189,6 +203,17 @@ ul.social-icons {
     transition: .5s;
     background-color: #322f30;
 }
+
+.fa-codeca {
+    padding:13px 17px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+
 .fa-facebook:hover {
     background-color: #3d5b99;
     border-radius: 40%;
@@ -219,4 +244,8 @@ ul.social-icons {
 .fa-google-plus:hover {
     background-color: #e25714;
     border-radius: 40%;
+}
+
+#hovers {
+
 }
