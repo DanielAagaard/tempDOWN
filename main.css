@@ -71,8 +71,7 @@
 }
 
 .nav {
-    transition: 0.2s;
-
+    transition: 0.4s;
     transition-timing-function: ease-in-out;
     font-family: Questrial, Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
@@ -107,6 +106,7 @@
 
 .nav:hover {
     background-color: #121923;
+    border-width: 2px;
 }
 
 #indfoot {
@@ -118,11 +118,15 @@
     text-align: center;
 }
 
+.somar {
+    margin-right: 5px;
+}
+
 #codeca {
     height: 16px;
     width: 16px;
     background-color: #322f30;
-    padding: 13px 13px 13px 13px;
+    padding: 13px 14px 13px 14px;
     position: relative;
     top: 15px;
 }
