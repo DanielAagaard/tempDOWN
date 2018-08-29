@@ -39,13 +39,14 @@
     transition: 0.5s;
     transition-timing-function: ease-in-out;
     text-transform: uppercase;
-
+    text-shadow: 0px 40px 50px black;
 }
 
 #b1:hover {
     color: #121923;
     font-size: 60px;
     padding-top: 30px;
+    text-shadow: 0px 3px 50px white;
 }
 
 /*  1 =     */
@@ -192,7 +193,6 @@ ul.social-icons {
 .social-icons li {
     vertical-align: top;
     display: inline;
-    height: 100px;
 }
 .social-icons a {
     color: #fff;
@@ -248,8 +248,4 @@ ul.social-icons {
 .fa-google-plus:hover {
     background-color: #e25714;
     border-radius: 40%;
-}
-
-#hovers {
-
 }
