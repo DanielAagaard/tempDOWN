@@ -70,6 +70,7 @@
 
 .nav {
     transition: 0.3s;
+    
     transition-timing-function: ease-in-out;
     font-family: Questrial, Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
