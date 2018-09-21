@@ -54,6 +54,8 @@
 #b2{
     grid-row: 4 / 6;
     grid-column: 3 / 6;
+    padding-bottom: 0px;
+    padding-top: 20px;
 }
 
 #b3{
