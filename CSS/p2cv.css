@@ -3,4 +3,18 @@ body {
 
 #erh {
     font-family: 'Merriweather', 'Calibri', 'sans-serif';
+    font-size: 25px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#ch2 {
+    margin-left: 20px;
+    font-family: 'Merriweather', 'Calibri', 'sans-serif';
+    font-size: 30px;
+    text-align: center;
+}
+
+.th {
+    
 }
