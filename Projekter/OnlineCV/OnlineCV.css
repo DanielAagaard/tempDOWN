@@ -1,0 +1,75 @@
+/* GROUPS */
+#vgi h1, #vgi h1:hover {
+    transition: 1s ease-in-out;
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-image: url('http://www.salgadosidastudio.com/images/cv_background.jpg');
+    background-size: cover;
+}
+
+#cvi {
+    background-color: black;
+    width: 60%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    z-index: 1;
+    opacity: 0.70;
+    min-width: 700px;
+}
+
+#vgi {
+    z-index: 1;
+    Margin: 10px 10px 00px 25px;
+    font-family: 'Merriweather', 'Calibri', 'Gill Sans';
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+#vgi h1:hover {
+    text-shadow: 0px 0px 100px black;
+}
+
+iframe {
+    margin-right: 60px;
+    display: block;
+    background-color: white;
+    opacity: 1 !important;
+}
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    position: relative;
+    left: 0px;
+    width: 97.5%;
+    font-family: 'Merriweather', 'Calibri', 'Gill Sans';
+}
+
+.navbar a {
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 7px 10px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.5s ease-in-out;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+    transition: 0.5s ease-in-out;
+    border: 0.1px solid white;
+}

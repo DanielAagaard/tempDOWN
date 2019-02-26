@@ -1,0 +1,17 @@
+#imageSelector {
+    background-image: url(./Fotos/display1.png);
+    width: 100%;
+}
+
+#changesTable {
+    visibility: hidden;
+}
+
+#shownImage {
+    cursor: pointer;
+    width: 3%;
+}
+
+#urlInput {
+    visibility: hidden;
+}

@@ -1,0 +1,47 @@
+html {
+    background-image: url(../../images.pexels.com/photos/1421903/pexels-photo-1421903db14.jpg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260);
+}
+
+.wwgrid {
+    display: grid;
+    width: 24%;
+    float: right;
+    position: relative;
+    right: px;
+    grid-gap: 10px;
+
+}
+
+.wwl {
+    color: white;
+    font-size: 31px;
+    font-weight: normal;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+}
+
+.ww1 {
+    border: 2px solid white;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    transition: 0.6s;
+}
+
+iframe {
+    min-width: 75%;
+    max-width: none;
+    height: 97%;
+    background-color: white;
+}
+
+.ifr {
+    border: 1px solid white;
+}
+
+.ww1:hover {
+    color: white;
+    border: 15px double transparent;
+    transition: 0.6s;
+    transition-timing-function: ease-in-out;
+
+}

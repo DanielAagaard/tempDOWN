@@ -1,0 +1,90 @@
+/* COLLECTIONS */
+
+img, #upgrade-table, #current-stats, #game-box, #current-object-table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#pc, #persec {
+    margin-left: 25px;
+}
+
+#upgrades, img {
+    display: block;
+}
+
+#coins, #current-stats p {
+    font-size: 50px;
+}
+
+#upgrade-table th, #upgrade-table td {
+    height: 50px;
+}
+
+#upgrades, #stat-box, ::placeholder {
+    color: white;
+}
+
+#current-stats, #upgrade-table td, #stat-box {
+    border: 1px solid white;
+}
+
+/* INDIVIDUAL SELECTORS */
+
+body {
+    background-color: black;
+}
+
+#game-box {
+    width: 99%;
+    height: 99%;
+}
+
+#current-stats {
+    width: 50%;
+    height: 60px;
+    padding: 10px 0px 10px 0px;
+    margin-top: 2px;
+}
+
+#current-stats p {
+    align-content: center;
+}
+
+#coins {
+    width: 90%;
+    border: none;
+    margin-left: 25px;
+}
+
+#plus-knap {
+    height: 300px;
+    width: 300px;
+    font-size: 40px;
+}
+
+#upgrade-table {
+    border: 3px solid white;
+    width: 40%;
+}
+
+#upgrade-table td {
+    font-size: 20px;
+    text-align: center;
+}
+
+#upgrade-table th {
+    font-size: 30px;
+}
+
+#stat-box {
+    position: absolute;
+    top: 350px;
+    padding: 25px 25px;
+    margin-left: 2px;
+}
+
+#current-object {
+    color: white;
+    font-size: 50px;
+}

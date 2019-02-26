@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Clicker Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./animate.css" />
+    <script src="./app.js"></script>
+</head>
+
+<body>
+    <div id="game-box">
+        <div id="current-stats">
+            <input id="coins" readonly placeholder="0" 
+            STYLE='color:white; background-color:black;'></input>
+        </div>
+
+    <div id="ud-plus-knap">
+        <img src="./image/Bitcoin.png" id="plus-knap" 
+        type="button" onclick="clicker(1)"></img>
+    </div>
+
+    
+    <div id="upgrades">
+        <table id="upgrade-table">
+
+            <tr>
+                <th colspan="2">Upgrades</th>
+            </tr>
+
+            <tr onclick="nextLevelCpc()">
+                <td>Coins per Click</td>
+                <td id="upgr"></td>
+                <td id="upgr2"></td>
+            </tr>
+
+            <tr onclick="nextLevelCps()">
+                <td id="upgr3">Coins per Second</td>
+                <td id="upgr4"></td>
+                <td id="upgr5"></td>
+            </tr>
+
+        </table>
+    </div>
+        
+    <div id="stat-box">
+        <h1>Stats</h1>
+        <h1 id="stat-perclick"></h1>
+        <h1 id="stat-persec"></h1>
+    </div>
+    
+</div>
+
+<br><br><br>
+
+<div id="current-object">
+    <table id="current-object-table">
+        <tr>
+            <th>Current Home</th>
+            <th>Current Vehicle</th>
+        </tr>
+        <tr>
+            <td><img id="currentHouse" src="" alt="House" height="300px" width="500px"></td>
+            <td><img id="currentCar" src="" alt="Car" height="300px" width="500px"></td>
+        </tr>
+    </table>
+</div>
+
+</body>
+
+</html>

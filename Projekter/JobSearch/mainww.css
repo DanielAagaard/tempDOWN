@@ -1,0 +1,50 @@
+html {
+    background-image: url(./bg.jpg);
+    background-size: cover;
+}
+
+.wwgrid {
+    display: grid;
+    width: 24%;
+    float: right;
+    position: relative;
+    right: px;
+    grid-gap: 10px;
+
+}
+
+.wwl {
+    color: black;
+    font-size: 31px;
+    font-weight: bold;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+}
+
+.ww1 {
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    transition: 0.6s;
+    background-color: white;
+    opacity: 0.3;
+}
+
+iframe {
+    min-width: 75%;
+    max-width: none;
+    height: 97%;
+    background-color: white;
+}
+
+.ifr {
+    border: 1px solid white;
+}
+
+.ww1:hover {
+    color: white;
+    border: 15px double transparent;
+    transition: 0.6s;
+    transition-timing-function: ease-in-out;
+    opacity: 1;
+}

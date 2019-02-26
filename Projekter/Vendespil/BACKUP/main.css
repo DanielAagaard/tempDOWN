@@ -1,0 +1,28 @@
+.grid-container {
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#title {
+    font-size: 80px;
+}
+
+#start-btn {
+    font-size: 40px;
+}
+
+.item1, .item2, .item3, .item4, 
+.item5, .item6, .item7, .item8, 
+.item9, .item10, .item11, .item12, 
+.item13, .item14, .item15, .item16 {
+    border: 10px solid white;
+    background-color: black;
+}
+
+.item1 { grid-column-start: 1; grid-column-end: 2; }
+.item2 { grid-column-start: 2; grid-column-end: 3; }
+.item3 { grid-column-start: 3; grid-column-end: 4; }
+.item4 { grid-column-start: 4; grid-column-end: 5; }
+

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1 id="h1-text">H1 text</h1>
+    <h2 id="h2-text">H2 text</h2>
+    <h3 id="h3-text">H3 text</h3>
+    <p id="p-text">P text</p>
+    <span>
+        <img src="./Fotos/plusImgIcon.png" id="shownImage" title="Insert image">
+        <div id="urlInput">
+            <input type="text" placeholder="Image URL" id="newerImage">
+            <input type="text" placeholder="Height" id="newerImageH" size="3">
+            <input type="text" placeholder="Width" id="newerImageW" size="3">
+            <button onclick="newImageApply()">Apply</button>
+        </div>
+    </span>
+    <br><br><br><br>
+    <table id="changesTable">
+        <tr>
+            <td>Change element:</td>
+            <td>
+                <select name="elements" id="elementSelector">
+                    <option value="h1-text">H1</option>
+                    <option value="h2-text">H2</option>
+                    <option value="h3-text" on>H3</option>
+                    <option value="p-text">P</option>
+                </select>
+            </td>
+            <td>
+                <select name="cssProperties" id="stylerSelector">
+                    <option value="text">Text</option>
+                    <option value="color">Color</option>
+                    <option value="size">Font size</option>
+                    <option value="family">Font family</option>
+                </select>
+            </td>
+            <td><input type="text" id="newText"></td>
+            <td><button onclick="makeChanges()">Change text</button></td>
+        </tr>
+    </table>
+</body>
+</html>
+
+<!-- <input type="text" id="newImage"></input> -->
