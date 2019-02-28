@@ -1,5 +1,0 @@
-Mangler kun:
-
--  Felter skal blive sorte igen hvis parret ikke matcher
-
--  Felter skal blive hvide hvis parret matcher
