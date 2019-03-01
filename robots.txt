@@ -1,6 +1,10 @@
+Sitemap: http://www.DanielAagaard.com/sitemap.xml
+Sitemap: http://www.DanielAagaard.com/sitemap.html
+
 User-agent: *
 Allow: /$
 Disallow: /
 
 User-agent: Googlebot-Image
 Disallow: /
+
