@@ -55,7 +55,7 @@
 }
 
 #b001 {
-    grid-column: 4 / span 2;
+    grid-column: 1 / span 8;
     grid-row: 1 / 1;
     width: auto;
     padding: auto;
@@ -151,15 +151,18 @@
     border-style: hidden;
 }
 
-@media screen and (max-width: 1200px) { #b2, #b3, #b4, #b5, #b6, #b7, .dropdown, .dropbtn, .dropdwnOpt { font-size: 30px; } }
+@media screen and (max-width: 1200px) { #b2, #b3, #b4, #b5, #b6, #b7, .dropdown, .dropbtn, .dropdwnOpt { font-size: 30px; }
+                                        #b001 { font-size: 45px; } }
 @media screen and (max-width: 850px) { #b2, #b3, #b4, #b5, #b6, #b7, .dropdown, .dropbtn, .dropdwnOpt  { font-size: 30px; }
-                                       #b1 { font-size: 25px; } }
+                                       #b1 { font-size: 25px; }
+                                       #b001 { font-size: 35px; } }
 @media screen and (max-width: 500px) { #b2, #b3, #b4, #b5, #b6, #b7, .dropdown, .dropbtn, .dropdwnOpt  { font-size: 25px; }
                                        #b1 { grid-column: 2 / span 6; } }
-@media screen and (max-width: 440px) { #b2, #b3, #b4, #b5, #b6, #b7, .dropdown, .dropbtn, .dropdwnOpt  { font-size: 20px; }
-                                       #b001 { font-size: 40px; } }
+@media screen and (max-width: 615px) { #b001 { font-size: 25px; } }
+@media screen and (max-width: 445px) { #b2, #b3, #b4, #b5, #b6, #b7, .dropdown, .dropbtn, .dropdwnOpt  { font-size: 20px; }
+                                       #b001 { font-size: 20px; } }
 @media screen and (max-width: 385px) { #b2, #b3, #b4, #b5, #b6, #b7, .dropdown, .dropbtn, .dropdwnOpt { font-size: 16px; }
-                                       #boo1, #b1                                                     { font-size: 20px; } }
+                                       #boo1, #b1                                                     { font-size: 15px; } }
 @media screen and (max-width: 315px) { #b2, #b3, #b4, #b5, #b6, #b7, .dropdown, .dropbtn, .dropdwnOpt { font-size: 13px; } }
 
 /* SOCIAL MEDIA */
