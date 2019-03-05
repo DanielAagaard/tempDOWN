@@ -94,7 +94,7 @@
     text-shadow: 0px 3px 50px white;
 }
 
-#b2, #b3, #b4, #b5, #b6, #b7, .dropdown, .dropdown-content { grid-column: 2 / 8; }
+#b2, #b3, #b4, #b5, #b6, #b7, .dropdown, .dropdown-content { grid-column: 3 / 7; }
 #b2 {  grid-row: 3  /  4; }
 #b3 {  grid-row: 4  /  5; }
 #b4 {  grid-row: 5  /  6; }
@@ -315,3 +315,9 @@ ul.social-icons {
         float: right;
         font-size: 14px;
     }
+
+
+
+
+
+
